@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_act">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_nav_act" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        app:layout_anchor="@id/fab1"
+        app:layout_anchorGravity="top"
+        android:layout_margin="@dimen/fab_margin"
+        app:useCompatPadding="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="#00B8D4"
+        android:tint="#FFFFFF"
+        app:rippleColor="#FFFFFF"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        app:layout_anchor="@id/fab2"
+        android:layout_margin="@dimen/fab_margin"
+        app:useCompatPadding="true"
+        app:srcCompat="@drawable/gg"
+        app:backgroundTint="@color/colorPrimary"
+        android:tint="#FFFFFF"
+        app:rippleColor="#FFFFFF"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="36dp"
+        app:useCompatPadding="true"
+        app:srcCompat="@drawable/ic_menu_manage"
+        app:fabSize="mini"
+        app:backgroundTint="@color/primary_text"
+        android:tint="#FFFFFF"
+        app:rippleColor="#FFFFFF"
+
+        />
+
+</android.support.design.widget.CoordinatorLayout>

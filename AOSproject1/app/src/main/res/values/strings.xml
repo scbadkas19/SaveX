@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">SaveX</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="str1"> Click to Continue </string>
+    <string name="Rs">Expense(\u20B9)</string>
+    <string name="Rs1">Income(\u20B9)</string>
+
+
+    <string-array name="list">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="refresh_token">Get Fresh Token</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_activity_nav_act">SaveX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SaveX</string>
+    <string name="nav_header_subtitle">www.SaveX.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">SignOut</string>
+
+    <string-array name="spinnerexp">
+        <item></item>
+        <item>Food</item>
+        <item>Social Life</item>
+        <item>Self-Development</item>
+        <item>Transportation</item>
+        <item>Culture</item>
+        <item>Household</item>
+        <item>Apparel</item>
+        <item>Beauty</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Gift</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinnerincome">
+        <item></item>
+        <item>Allowance</item>
+        <item>Salary</item>
+        <item>Petty Cash</item>
+        <item>Bonus</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
